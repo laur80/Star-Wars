@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios'
 
 const fetchPlanets = async (page) => {
-   const res = await fetch(`http://swapi.dev/api/planets/?page=${page}`);
+   const res = await fetch(`https://swapi.dev/api/planets/?page=${page}`);
   return res.json();
    // const res = await axios('http://swapi.dev/api/planets/')
    // return res;
